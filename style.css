@@ -14,18 +14,11 @@ body{
     justify-content: center;
        height : 500px; 
        width : 400px;   
-      margin : 100px ;  
+      /* margin : 100px ;  
          margin-left : 500px;
-         margin-right : 500px;  
-        /* background : #F7F7F7; */
-        /* box-shadow : 0 0 3px rgba(0, 0, 0, 0.1) */
-        /* border-style: solid;
-        border-radius : 40px;
-        border-width: 1px;
-        border-color: black;
-         -webkit-border-radius : 20px;
-        -moz-border-radius : 20px   */
-}
+         margin-right : 500px;   */
+         margin:auto;
+        }
 
 .box{
     display: flex;
@@ -41,17 +34,28 @@ body{
     justify-content: center;
     font-family: 'Rowdies', cursive;
     font-size: 60px;
+    margin:auto;
+}
+
+@media only screen and (max-width: 650px) {
+    .theHeading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Rowdies', cursive;
+        font-size: 16px;
+        margin:auto;
+    }
 }
 
 .above{
-    /* display: flex; */
-    /* flex-direction: column; */
-    align-items: center;
+       align-items: center;
     justify-content: center;
     font-family: 'Rowdies', cursive;
     font-size: 30px;
 }
-.but{
+.button{
     display: flex;
     width: 100px;
 }
